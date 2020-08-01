@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(255, 250, 200);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    padding: 2rem;
+    border: 3px solid rgba(121, 52, 30);
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.header-text {
+    margin-bottom: 3rem;
+    color: rgba(121, 52, 30);
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+}
+
+.convert-form {
+    /*    background: pink;*/
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: monospace;
+
+}
+
+.input-field {
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    font-family: monospace;
+    margin: 0rem 0rem 2rem;
+    text-align: center;
+    background: rgba(121, 52, 30, 0.2);
+    outline: 0px solid;
+    border: 1px solid rgba(121, 52, 30, 0.4);
+    transition: all 0.1s ease-in-out;
+    max-width: 100%;
+    width: 30rem;
+}
+
+.input-field:hover {
+    border: 1px solid rgba(121, 52, 30, 0.8);
+}
+
+.input-field:focus {
+    border: 1px solid rgba(121, 52, 30, 0.8);
+}
+
+.bad-input {
+    border: 1px solid red;
+    box-shadow: 0px 0px 1px 1px red;
+}
+
+.input-field-prompt-text small {
+    font-size: 1rem;
+    font-family: arial sans-serif;
+    letter-spacing: 3px;
+    color: red;
+    text-shadow: 0px 0px 1px black;
+    transition: all 0.1s ease-in-out;
+    opacity: 0;
+}
+
+.result p {
+    font-size: 4rem;
+    color: rgba(121, 52, 30);
+    font-weight: 600;
+    word-break: break-all;
+}
