@@ -4,8 +4,7 @@
   "description": "\u001b[A\u001b[BAn application that converts binary values to decimals",
   "main": "bin2dec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "deploy": "gh-pages -d dist"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IGIfeanyichukwu/binary2decimal.git"
@@ -13,14 +12,14 @@
   "keywords": [
     "binary",
     "decimal",
-    "converter\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "converter",
     "value",
     "converter"
   ],
   "author": "I. G Ifeanyichukwu <if3cofr3sh@gmail.com> (Ifex)",
   "license": "MIT",
+  "homepage": "https://IGIfeanyichukwu.github.io/binary2decimal",
   "bugs": {
     "url": "https://github.com/IGIfeanyichukwu/binary2decimal/issues"
-  },
-  "homepage": "https://github.com/IGIfeanyichukwu/binary2decimal#readme"
+  }
 }
